@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+/* navbar-style */
+/* nav{
+  display: flex;
+   align-items: center;
+  justify-content: space-around; 
+
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  flex-direction: row;
+}
+nav ul li{
+  list-style: none;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.home-color{
+  color: Orange;
+}
+.about-color{
+color: #01ACFD;
+}
+.facilites-color{
+color: rgb(5, 212, 223);
+}
+.admission-color{
+color:rgb(93, 88, 239) ;
+}
+.contact-btn{
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+background: rgb(254, 163, 1);
+padding: 18px 35px ;
+font-weight: 600px;
+}
+/* banner style */
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 141px ;
+}/*
+.banner-content{
+  gap: 24px;
+}
+.banner-title{
+  font-size: 56px;
+  font-weight: bold;
+}
+.banner-bescription{
+  font-size: 20px;
+  font-weight:400px ;
+  color: #111111;
+}
+.banner-btn{
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  border: none;
+  border-radius: 12px;
+}
+*/ 
