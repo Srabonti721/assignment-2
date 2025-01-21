@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B11-A2-Kids-School</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="quicksand-font">
+
+<body>
     <header>
-        <nav class="navbar">
-                <h3 class="nav-head">SCHOOL</h3>
-            <img src="assets/logo.png" alt="logo"> 
+        <nav class="navbar display-flex">
+            <div class="nav-logo">
+                <img src="assets/logo.png" alt="logo">
+                <h3 class="nav-head md-hide">SCHOOL</h3>
+            </div>
+            <ul class="nav-link display-flex md-hide">
+                <li class="nav-item"><a class=" nav-link home-color" href="">home</a></li>
+                <li class="nav-item"><a class="nav-link about-color" href="">about</a></li>
+                <li class="nav-item"><a class=" nav-link facilites-color" href="">Facilites</a></li>
+                <li class="nav-item"><a class=" nav-link admission-color" href="">admission</a></li>
+            </ul> 
+            <div class="md-hide">
+                <button class="contact-btn">contact</button>
+            </div>
 
-                <!--<ul>
-                <li><a class="home-color" href="">home</a></li>
-                <li><a class="about-color"href="">about</a></li>
-                <li><a class="facilites-color" href="">Facilites</a></li>
-                <li><a class="admission-color" href="">admission</a></li>
-                <li><a href=""><button class="contact-btn">contact</button></a></li>
-
-         </ul> -->
+            <div class="menubar-icon hide md-active">
+                <img src="./assets/menu.png" alt="icon">
+            </div>          
         </nav>
-        <!--<div class="banner">
+        <div class="banner">
             <div class="banner-content">
                 <h3 class="banner-title"><span class="home-color">Empowering</span> <br>
                     students from small <br> <span class="about-color">age towards vision</span></h3>
-                <p class="banner-bescription">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+                <p class="banner-bescription">With the courage, Confidence, Creativity and Compassion to make their
+                    Unique Contribution in a Diverse and Dynamic World.</p>
                 <button class="banner-btn">Enroll Now</button>
             </div>
             <div class="banner-img">
-                 <img src="assets/hero-kids.png" alt="kid">
+                <img src="assets/hero-kids.png" alt="kid">
             </div>
-        </div>-->
+        </div>
     </header>
-    <main> 
+    <main>
+        <section class="card-section">
+            <div class="conteiner">
+            <h3 class="section-title">Standard Curriculum</h3>
+            <div class="card">
+                <div class="card-1">
+                    <div class="card-img">
+                    <img src="assets/kinder.png" alt="">
+                </div> 
+                    <h3 class="card-title">Kinder (3-6) Years</h3>
+                    <p class="card-description">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <button class="card-btn">Read More</button>  
+                </div>
+                <div class="card-2">
 
+                </div>
+                <div class="card-3">
+
+                </div>
+            </div>
+        </div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
